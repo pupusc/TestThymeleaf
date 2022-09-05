@@ -1,5 +1,6 @@
 package com.psc.redisconfig;
 
+import com.sun.xml.internal.bind.v2.TODO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.BoundSetOperations;
 import org.springframework.data.redis.core.HashOperations;
@@ -20,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 //抑制多类型的警告
 @SuppressWarnings(value = { "unchecked", "rawtypes" })
 @Component
-public class RedisCache
+public class RedisUtils
 {
     @Autowired
     public RedisTemplate redisTemplate;
