@@ -1,4 +1,4 @@
-package com.psc.Utils;
+package com.psc.utils;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
